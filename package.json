@@ -1,0 +1,31 @@
+{
+	"name": "my-react2",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build:dev": "rimraf dist && rollup --bundleConfigAsCjs --config scripts/rollup/dev.config.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@rollup/plugin-alias": "^5.1.0",
+		"@rollup/plugin-commonjs": "^25.0.7",
+		"@rollup/plugin-replace": "^5.0.5",
+		"eslint": "^9.2.0",
+		"prettier": "^3.2.5",
+		"rimraf": "^5.0.5",
+		"rollup": "^4.17.2",
+		"rollup-plugin-generate-package-json": "^3.2.0",
+		"rollup-plugin-typescript2": "^0.36.0",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"-": "^0.0.1",
+		"@typescript-eslint/parser": "^7.8.0",
+		"D": "^1.0.0",
+		"eslint-plugin,": "link:@typescript-eslint/eslint-plugin,"
+	}
+}
